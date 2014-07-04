@@ -1,0 +1,51 @@
+.row2{
+  margin-top: 80px;
+  height: 354px;
+  /*background: yellow;*/
+}
+
+.row2 .section{
+	width: 370px;
+	display: inline-block;
+	vertical-align: top;
+	/*overflow:hidden;*/
+}
+
+.row2  img{
+	float:right;	
+	vertical-align: top;
+}
+
+.row2 h2
+{
+    margin:0;
+    display: inline-block;
+    width:650px;
+	font:21px FjallaOne;
+	color: #202628;
+	margin-left:2px;
+	margin-top: -4px;
+	letter-spacing: 0.0345em;
+}
+
+.row2 h3
+{
+    margin:32px 0 0 0;
+	font: 14pt Lato;
+	color: #e84c3d;
+	height: 24px;
+	letter-spacing: -0.045em;
+}
+
+.row2 h4{
+	font: 12pt Lato;
+	margin:34px 0 0 0;
+	letter-spacing:0.02em;
+	font-weight: bold;
+	color: #202628;
+}
+
+.row2 p{
+	font: 12pt Lato;
+	color: #bfc2c3;
+}

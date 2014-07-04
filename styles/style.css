@@ -1,0 +1,96 @@
+/* Styles go here */
+@font-face {
+    font-family: FjallaOne; /* Имя шрифта */
+    src: url(../fonts/FjallaOne-Regular.ttf); /* Путь к файлу со шрифтом */
+    letter-spacing: 0.035em;
+}
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+	width: 1920px;
+	margin: 0;
+}
+   
+header {
+	  height: 80px;
+	  background: #202628;
+	  color: white;
+	  display: flex;
+	  
+}
+
+header div{
+	font:13pt FjallaOne;
+	display:inline-block;
+	margin: auto 0;
+}
+
+header div .siteName
+{
+    font:25px FjallaOne;
+}
+
+.banner{
+  height: 560px;
+  background: #666155;
+  background-image: url(../images/banner.jpg);
+}
+
+.content{
+  margin-left: 375px;
+  margin-right: 375px;
+  font-size:0px;
+}
+
+.image, .sectionText{	
+	display:inline-block;
+}
+ 
+.circle{
+	padding:0; margin:0;
+	display:flex;
+	width: 70px;
+    height: 70px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+}
+
+.circle img{
+	margin: auto;
+}
+
+.sectionText{
+	margin-left: 30px;	
+	font: 22px FjallaOne;
+}
+
+.divMargin{
+	margin-left:30px;
+	display: inline-block;
+}
+
+footer{
+  height: 205px;
+  background:#202628;
+  margin:0;
+}
+
+footer .content{
+	padding-top: 80px;
+	font: 12px Lato;
+	color: #e7e7e7; 
+	/*vertical-align: top;*/
+}
+
+footer .content p{
+	display: inline-block;
+	color: #595f61; /*silver*/	
+}
+
+footer .orangeText{
+	color: #e84c3d;/*orange*/
+}

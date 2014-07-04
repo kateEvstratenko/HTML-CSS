@@ -1,0 +1,59 @@
+.row3 .content{
+	border-radius: 15px;
+	margin-top: 80px;
+	height: 187px;
+	background: #e84c3d;
+	/*height: 755px;*/
+	display:flex;
+}
+
+.row3 .circle{
+	background: #202628;
+	
+}
+
+.row3 .section{
+	margin:auto 30px;
+	width: 570px;
+}
+
+.row3 .image
+{
+    vertical-align: top;
+}
+
+.row3 .sectionText{
+	vertical-align: middle;
+}
+
+ .row3 .sectionText{
+	width: 370px;
+ }
+ 
+.row3 h2{
+	font: 21px FjallaOne;
+	color: white;
+	/*display: inline-block;*/
+}
+
+.row3 h3{
+	font:12pt Lato;
+	color: white;
+	/*display: inline-block;*/
+}
+
+.row3 input[type="text"]{
+	width: 381px;
+	height: 40px;
+	border-radius:50px;
+}
+
+.row3 input[type="submit"]{
+	width: 120px;
+	height: 45px;
+	border-radius:30px;
+	border: 0px;
+	margin-left: 10px;
+	background: #202628;
+	color: white;
+}

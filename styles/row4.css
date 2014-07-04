@@ -1,0 +1,57 @@
+.row4 .image, .row4 .sectionText{
+	height:70px;
+	padding: 30px 0;
+	vertical-align: top;
+}
+
+.row4 .sectionText{
+	width:270px;
+	font: 18px Lato;
+ }
+ 
+.row4 .section{
+	width: 370px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+	margin-bottom: 60px;
+}
+
+.row4 .section h3{
+	margin-top: 70px;
+	margin-bottom: 30px;
+	font: 24px FjallaOne;
+}
+
+.row4 .section form{
+	background: #e7e7e7;
+	padding: 30px;
+	font: 14px Lato;
+	height: 330px; /* 390 - 4*margin-top */
+}
+
+.row4 input{
+	margin-top: 15px;
+}
+
+.row4 input[type="text"]{
+	width: 310px;
+	height: 40px;
+	border-radius:50px;
+}
+
+.row4 textarea{
+	height: 83px;
+	width: 310px;
+	border-radius:20px;
+	margin-top: 15px;
+}
+
+.row4 input[type="submit"]{
+	width: 120px;
+	height: 45px;
+	border-radius:30px;
+	border: 0;
+	background: #e84c3d;
+	color: white;
+}
