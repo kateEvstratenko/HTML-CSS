@@ -1,0 +1,42 @@
+.banner{
+	height: 560px;
+	background-image: url(../images/banner.jpg);
+}
+
+.banner .opacity{
+	height: 560px;
+	background: url(../images/opacity.png);
+}
+
+.banner button{
+	background: transparent;
+	border-width: 0;
+	padding: 0;
+	margin: 290px 1px 0 0;
+}
+
+.banner section{
+	margin-top:23px;
+}
+
+.banner h2{
+	font: 29px FjallaOne;
+	letter-spacing: 0.114em;
+	color: #e7e7e7;
+	margin:0;
+	margin-bottom: 12px;
+}
+
+.banner h2 img{
+	vertical-align: middle;
+	margin-left: 13px;
+	margin-top: -7px;
+}
+
+.banner h4{
+	font: 15px FjallaOne;
+	letter-spacing: 0.075em;
+	color: #e84c3d;
+	margin: 0;
+	margin-bottom:12px;
+}

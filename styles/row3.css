@@ -1,5 +1,5 @@
 .row3 .content{
-	border-radius: 15px;
+	border-radius: 10px;
 	margin-top: 80px;
 	height: 187px;
 	background: #e84c3d;
@@ -8,52 +8,91 @@
 }
 
 .row3 .circle{
-	background: #202628;
-	
+	background: #202628;	
+}
+
+.row3 .allSections{
+	margin: 45px 0 0 0;
+	display: flex;
 }
 
 .row3 .section{
-	margin:auto 30px;
+	display: inline-block;
 	width: 570px;
+	vertical-align: top;
 }
 
 .row3 .image
 {
     vertical-align: top;
+	margin: 4px 30px 0 30px
+}
+
+.row3 .sectionContent{
+	margin: 0 auto;
+	width: 511px;
 }
 
 .row3 .sectionText{
-	vertical-align: middle;
+	margin: 0;	
+	width: 440px;
+	display: inline-block;
 }
-
- .row3 .sectionText{   
-	width: 370px;
- }
+ 
+.row3 form{
+	margin-top: 25px;
+	width: 511px;
+} 
  
 .row3 h2{
 	font: 21px FjallaOne;
 	color: white;
+	margin: 0;
+	letter-spacing: 0.03em;
 	/*display: inline-block;*/
 }
 
-.row3 h3{
-	font:12pt Lato;
+.row3 .text{
+	font: 16px Lato;
 	color: white;
-	/*display: inline-block;*/
+	line-height: 9px;
+	letter-spacing: 0.005em;
+	/* display: inline-block; */
+	margin: 22px 0 0 -2px;
+}
+
+.row3 .author{
+	font: 13px Lato;
+	display: inline-block;
+	color: white;
+	font-style: italic;
 }
 
 .row3 input[type="text"]{
+	box-sizing: border-box;
 	width: 381px;
-	height: 40px;
+	height: 41px;
+	border-width: 0;
 	border-radius:50px;
+	color: #bfc2c3;
+	font: 14px Lato;
+	font-style: italic;
+	padding-left:18px;
+	letter-spacing: -0.0333em;
 }
 
-.row3 input[type="submit"]{
+.row3 button{
 	width: 120px;
-	height: 45px;
+	height: 40px;
 	border-radius:30px;
 	border: 0px;
+	font: 15px FjallaOne;
 	margin-left: 10px;
 	background: #202628;
 	color: white;
+	letter-spacing: 0.04em;
+}
+
+.row3 button img{
+	vertical-align: middle;
 }

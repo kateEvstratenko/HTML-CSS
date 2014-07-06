@@ -8,12 +8,17 @@
 	width: 370px;
 	display: inline-block;
 	vertical-align: top;
+	margin-top: 3px;
 	/*overflow:hidden;*/
 }
 
-.row2  img{
+.row2  .bigImage{
 	float:right;	
 	vertical-align: top;
+}
+
+.row2 .title{
+	margin-top: 24px;
 }
 
 .row2 h2
@@ -24,28 +29,42 @@
 	font:21px FjallaOne;
 	color: #202628;
 	margin-left:2px;
-	margin-top: -4px;
-	letter-spacing: 0.0345em;
+	margin-top: -3px;
+	letter-spacing: 0.034em;
 }
 
 .row2 h3
 {
-    margin:32px 0 0 0;
-	font: 14pt Lato;
+    margin:6px 0 9px 0;
+	font: 20px Lato;
 	color: #e84c3d;
 	height: 24px;
-	letter-spacing: -0.045em;
+	letter-spacing: 0.006em;
 }
 
 .row2 h4{
-	font: 12pt Lato;
-	margin:34px 0 0 0;
-	letter-spacing:0.02em;
+	font: 16px Lato;
+	letter-spacing:-0.048em;
 	font-weight: bold;
 	color: #202628;
+	margin: 21px 0 0 0;
 }
 
 .row2 p{
-	font: 12pt Lato;
+	font: 14px Lato;
 	color: #bfc2c3;
+	margin: 6px 0 0 0;
+    letter-spacing: -0.008em;
+    line-height:24px;
+}
+
+.row2 button{
+	background: #e84c3d;
+	border: 0;
+	border-radius: 20px;
+	font: 14px Oswald;
+	color: #fdf3f2;
+	width: 70px; 
+	height: 37px;
+	margin-top: 33px;
 }

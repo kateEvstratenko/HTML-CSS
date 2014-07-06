@@ -18,17 +18,22 @@
 	font:14px Lato;
 	color: #767c7e;
 	-webkit-margin-after: 0;
-	-webkit-margin-before: 15px;
+	-webkit-margin-before: 14px;
 	line-height: 25px;
-	letter-spacing: 0;
-	/*height: 71px;*/
-}
+	margin: 15px 0 0 0;
+    letter-spacing: -0.012em;
+ }
+ 
+ .row1 a{
+	color:#e84c3d;
+	text-decoration: none;
+ }
 
 .row1 .sectionText h3
 {
-    font:20px FjallaOne;
+    font:21px FjallaOne;
     font-weight:normal;
-    margin: 0;
-
+    margin: -2px 0 0 0;
+    letter-spacing: 0.035em;
 }
 
