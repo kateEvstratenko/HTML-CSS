@@ -24,11 +24,6 @@
     padding-bottom: 22px;
 }
 
-.row4 .subsection .image 
-{
-	float:left;
-}
-
 .row4 .sectionText{
 	width: 270px;
 	font: 14px Lato;
@@ -40,8 +35,17 @@
 
 .row4 .subsection .sectionText p
 {
-    float: right;
     margin: 0;
+}
+
+.row4 .subsection a
+{
+    text-decoration:none;
+}
+
+.row4 .subsection a:hover
+{
+    text-decoration:none;
 }
 
 .row4 .icon{
