@@ -1,11 +1,17 @@
-.banner{
-	height: 560px;
-	background-image: url(../images/banner.jpg);
+.banner
+{
+	 background-image: url(../images/banner.jpg);
+	 background-position:center center;
 }
 
-.banner .opacity{
-	height: 560px;
+.banner .opacity
+{
 	background: url(../images/opacity.png);
+}
+
+.banner .content
+{
+   height: 560px;
 }
 
 .banner button{

@@ -1,19 +1,7 @@
 .row3 .content{
 	border-radius: 10px;
-	margin-top: 80px;
-	height: 187px;
 	background: #e84c3d;
-	/*height: 755px;*/
-	display:flex;
-}
-
-.row3 .circle{
-	background: #202628;	
-}
-
-.row3 .allSections{
-	margin: 45px 0 0 0;
-	display: flex;
+    padding: 45px 0 43px 0;
 }
 
 .row3 .section{
@@ -22,15 +10,14 @@
 	vertical-align: top;
 }
 
-.row3 .image
+.row3 img
 {
     vertical-align: top;
 	margin: 4px 30px 0 30px
 }
 
 .row3 .sectionContent{
-	margin: 0 auto;
-	width: 511px;
+    padding-left: 30px;
 }
 
 .row3 .sectionText{
@@ -41,7 +28,6 @@
  
 .row3 form{
 	margin-top: 25px;
-	width: 511px;
 } 
  
 .row3 h2{
@@ -49,7 +35,6 @@
 	color: white;
 	margin: 0;
 	letter-spacing: 0.03em;
-	/*display: inline-block;*/
 }
 
 .row3 .text{
@@ -93,6 +78,8 @@
 	letter-spacing: 0.04em;
 }
 
-.row3 button img{
+.row3 button img
+{
+    margin:0;
 	vertical-align: middle;
 }

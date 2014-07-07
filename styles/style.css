@@ -14,57 +14,63 @@
 }
 
 body{
-	width: 1920px;
 	margin: 0;
 }
    
 header {
-	  height: 80px;
-	  background: #202628;
-	  color: white;
-	  display: flex;	  
+	background: #202628;
+	color: white;	  
 }
 
-header .content{
-	width: 1920px;
-	display:flex; 
+header .content{	
+	overflow:hidden;
 }
 
 header .siteName
 {
     font: 25px FjallaOne;
 	letter-spacing: -0.008em;/*0.025em;*/
-	display: inline-block;
-	margin: auto 0;
-	padding-top:2px
+	float: left;
+    line-height: 80px;
+}
+
+header .divRight
+{
+    float: right;
 }
 
 header .menu{
-	display: inline-block;
-	/*margin: auto 0;*/
-	margin-left: auto;
-	/*padding-top: 2px;*/
+    display: table;
+    margin-left: auto;
+    overflow: hidden;
+    padding: 0;
 }
 
 header .menu li{
 	display: table-cell;
-	font:13px FjallaOne;
-	letter-spacing: 0.027em;
-	padding-left: 22px;
-	padding-right: 22px;
-	padding: 1px 22px 0 22px;
-	vertical-align: middle;
-	height: 80px;
+    font: 13px FjallaOne;
+    letter-spacing: 0.027em;
+    vertical-align: middle;
 }
 
-header .menu li p{
-	
+header .menu li a
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 22px 0 22px;
+}
+
+header a:hover
+{
+    background:#e84c3d;
 }
 
 .content{
-  margin-left: 375px;
-  margin-right: 375px;
   font-size:0px;
+  margin: 0 auto;
+  width: 1170px;
 }
 
 .image, .sectionText{	
@@ -119,18 +125,24 @@ footer .sectionRight{
 }
 
 footer .footerText{
-	padding-top: 65px;
-	letter-spacing: 0.02em;
+	padding-top: 77px;
+	letter-spacing: 0.025em;
 }
 
 .content .sectionRight img{
 	margin-left: 7px;
 }
 
-footer p, footer pre{
+footer p{
 	display: inline-block;
 	margin: 12px 0 0 0;
 	letter-spacing: -0.009em;
+}
+
+footer .footerSeparatop
+{
+    margin: 0 15px 0 15px;
+    color: #595f61; 
 }
 
 footer .greyText, footer pre{

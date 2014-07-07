@@ -1,7 +1,6 @@
-.row2{
-  margin-top: 80px;
-  height: 354px;
-  /*background: yellow;*/
+.row2 .content
+{
+    padding: 80px 0 80px 0;
 }
 
 .row2 .section{

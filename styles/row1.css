@@ -1,20 +1,38 @@
 .row1{
   background: #e7e7e7;
-  height: 277px;
 }
 
-.row1 .image, .row1 .sectionText{
-	padding-top: 80px;
-	padding-bottom: 80px;
-	height:121px;
-	vertical-align: top;
+.row1 .content
+{
+    padding: 80px 0 83px 0;
 }
 
-.row1 .sectionText{
+.row1 ul
+{
+    display: table;
+    padding: 0;
+}
+
+.row1 li
+{
+    display: table-cell;   
+}
+
+.row1 .text{
 	width:270px;
+	float: right;
+	margin-left: 30px;
  }
  
- .row1 .sectionText p{
+ .row1 .text h3
+{
+    font:21px FjallaOne;
+    font-weight:normal;
+    margin: -2px 0 0 0;
+    letter-spacing: 0.035em;
+}
+ 
+.row1 .text p{
 	font:14px Lato;
 	color: #767c7e;
 	-webkit-margin-after: 0;
@@ -22,18 +40,9 @@
 	line-height: 25px;
 	margin: 15px 0 0 0;
     letter-spacing: -0.012em;
- }
+}
  
- .row1 a{
+ .row1 .text a{
 	color:#e84c3d;
 	text-decoration: none;
  }
-
-.row1 .sectionText h3
-{
-    font:21px FjallaOne;
-    font-weight:normal;
-    margin: -2px 0 0 0;
-    letter-spacing: 0.035em;
-}
-

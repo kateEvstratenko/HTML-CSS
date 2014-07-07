@@ -1,3 +1,8 @@
+.row4 .content
+{
+    padding: 66px 0 58px 0;
+}
+
 .row4 .image, .row4 .subsection .sectionText{
 	margin: 20px 0 0 0;
 }
@@ -38,39 +43,33 @@
 .row4 .section{
 	width: 370px;
 	display: inline-block;
-
 	vertical-align: top;
-	margin-bottom: 61px;
 }
 
 .row4 .section h3{
-	margin-top: 66px;
-	margin-bottom: 25px;
 	font: 21px FjallaOne;
 	letter-spacing: 0.037em;
+	margin: 0 0 25px 0;
 }
 
 .row4 .section h4{
 	font: 16px Lato;
-	margin: 0;
+	margin: 0 0 3px 0;
 	font-weight: bold;
 	letter-spacing: -0.04em;
 	color: #e84c3d;
 }
 
 .row4 .subsection{
-	/*height: 130px;*/
-	padding-top: 0;
 	padding-bottom: 9px;
 }
 
 .row4 .subsectionRight{
-	padding-top:0;
 	padding-bottom:25px;
 }
 
 .row4 .subsectionRight .contacts{
-	margin: 3px 0 0 0;
+	margin: 0;
 }
 
 .row4 .section form{
@@ -81,32 +80,28 @@
 	border-radius: 3px;
 }
 
-.row4 .section form div{
+.row4 .section form p{
 	line-height: 24px;
-	margin-top: -5px;
+	margin: -5px 0 0 0;
 	letter-spacing: -0.004em;
 	padding-bottom: 6px;
 }
 
 .row4 input[type="text"]{
 	border-width: 0;
-	width: 310px;
+	width: 295px;
 	border-radius:50px;
-	margin-top: 18px;
+	margin: 22px 0 0 0;
 	color: #bfc2c3;
 	font: 14px Lato;
 	font-style: italic;
 	letter-spacing: -0.06em;
-	vertical-align: top;
-	box-sizing: border-box;
-	line-height: 20px;
-	padding-top: 9px;
-	padding-bottom: 12px;
+	line-height: 40px;
 	padding-left: 15px;
 }
 
 .row4 textarea{
-	width: 305px;
+	width: 295px;
 	border-radius: 10px;
 	border-width: 0;
 	margin-top: 19px;
@@ -116,9 +111,8 @@
 	font-style: italic;
 	letter-spacing: -0.055em;
 	padding-left: 15px;
-	box-sizing: border-box;
-	padding-bottom: 15px;
-	line-height: 32px;
+	padding-bottom: 39px;
+	line-height: 20px;
 }
 
 .row4 button{
