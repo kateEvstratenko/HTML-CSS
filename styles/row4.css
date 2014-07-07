@@ -1,10 +1,47 @@
 .row4 .content
 {
-    padding: 66px 0 58px 0;
+    padding: 66px 0 61px 0;
 }
 
-.row4 .image, .row4 .subsection .sectionText{
-	margin: 20px 0 0 0;
+.row4 .subsectionContent
+{
+    	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.row4 .section .subsection:before
+{
+    content: url(../images/line370.png);
+}
+
+.row4 .section .subsection:last-child:after
+{
+    content: url(../images/line370.png);
+}
+
+.row4 .subsectionContent {
+    padding-top: 30px;
+    padding-bottom: 22px;
+}
+
+.row4 .subsection .image 
+{
+	float:left;
+}
+
+.row4 .sectionText{
+	width: 270px;
+	font: 14px Lato;
+	letter-spacing: -0.01em;
+	line-height: 24px;
+	display: inline-block;
+	padding: 5px 0 0 30px;
+ } 
+
+.row4 .subsection .sectionText p
+{
+    float: right;
+    margin: 0;
 }
 
 .row4 .icon{
@@ -15,25 +52,14 @@
 	width: 27px;
 }
 
-.row4 .sectionText{
+ .row4 .subsectionText
+ {
 	width: 270px;
-	font: 14px Lato;
-	letter-spacing: -0.01em;
-	line-height: 24px;
-	display: inline-block;
- }
- 
- .row4 .divMargin20{
-	margin-left:22px;
-	display: inline-block;
- }
- 
- .row4 .subsectionRight .sectionText{
-	margin:25px 0 0 0;
- }
- 
- .row4 .subsectionRight .contacts{
-	margin: 0px 0 0 0;
+    font: 14px Lato;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: inline-block;
+    padding: 25px 0 25px 22px;
  }
  
  .row4 .sectionText a{
@@ -48,7 +74,7 @@
 
 .row4 .section h3{
 	font: 21px FjallaOne;
-	letter-spacing: 0.037em;
+	letter-spacing: 0.033em;
 	margin: 0 0 25px 0;
 }
 
@@ -58,14 +84,6 @@
 	font-weight: bold;
 	letter-spacing: -0.04em;
 	color: #e84c3d;
-}
-
-.row4 .subsection{
-	padding-bottom: 9px;
-}
-
-.row4 .subsectionRight{
-	padding-bottom:25px;
 }
 
 .row4 .subsectionRight .contacts{
@@ -82,45 +100,43 @@
 
 .row4 .section form p{
 	line-height: 24px;
-	margin: -5px 0 0 0;
+    margin: -5px 0 23px 0;
 	letter-spacing: -0.004em;
-	padding-bottom: 6px;
 }
 
 .row4 input[type="text"]{
-	border-width: 0;
-	width: 295px;
-	border-radius:50px;
-	margin: 22px 0 0 0;
-	color: #bfc2c3;
-	font: 14px Lato;
-	font-style: italic;
-	letter-spacing: -0.06em;
-	line-height: 40px;
-	padding-left: 15px;
+    border-width: 0;
+    width: 295px;
+    border-radius: 50px;
+    margin: 0 0 22px 0;
+    color: #bfc2c3;
+    font: 14px Lato;
+    font-style: italic;
+    letter-spacing: -0.06em;
+    line-height: 39px;
+    padding-left: 15px;
 }
 
 .row4 textarea{
-	width: 295px;
-	border-radius: 10px;
-	border-width: 0;
-	margin-top: 19px;
-	resize: none;
-	color: #bfc2c3;
-	font: 14px Lato;
-	font-style: italic;
-	letter-spacing: -0.055em;
-	padding-left: 15px;
-	padding-bottom: 39px;
-	line-height: 20px;
+    width: 296px;
+    border-radius: 10px;
+    border-width: 0;
+    margin: -2px 0 0 0;
+    resize: none;
+    color: #bfc2c3;
+    font: 14px Lato;
+    font-style: italic;
+    letter-spacing: -0.055em;
+    padding: 8px 0 34px 15px;
+    line-height: 20px;
 }
 
 .row4 button{
-	border-width: 0;
+	border-width: 0;	
 	width: 100px;
 	height: 40px;
 	border-radius:20px;
-	margin-top: 15px;
+    margin-top: 17px;
 	border: 0;
 	background: #e84c3d;
 	color: white;

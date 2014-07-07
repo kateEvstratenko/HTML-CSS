@@ -29,28 +29,23 @@ header .content{
 header .siteName
 {
     font: 25px FjallaOne;
-	letter-spacing: -0.008em;/*0.025em;*/
 	float: left;
-    line-height: 80px;
+    padding: 26px 0 0 0;
 }
 
-header .divRight
+header .rightBlock
 {
     float: right;
 }
 
 header .menu{
     display: table;
-    margin-left: auto;
-    overflow: hidden;
-    padding: 0;
 }
 
 header .menu li{
 	display: table-cell;
     font: 13px FjallaOne;
-    letter-spacing: 0.027em;
-    vertical-align: middle;
+    letter-spacing: 0.025em;
 }
 
 header .menu li a
@@ -60,6 +55,11 @@ header .menu li a
     display: inline-block;
     line-height: 80px;
     padding: 0 22px 0 22px;
+}
+
+header .menu li:last-child a
+{
+    padding-right: 10px;
 }
 
 header a:hover
@@ -91,10 +91,7 @@ header a:hover
 	margin: auto;
 }
 
-.sectionText{
-	margin-left: 30px;	
-	font: 22px FjallaOne;
-}
+
 
 .divMargin{
 	margin-left:30px;

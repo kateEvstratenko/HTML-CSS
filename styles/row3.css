@@ -54,11 +54,10 @@
 }
 
 .row3 input[type="text"]{
-	box-sizing: border-box;
-	width: 381px;
-	height: 41px;
+	width: 362px;
+	height: 39px;
 	border-width: 0;
-	border-radius:50px;
+	border-radius:20px;
 	color: #bfc2c3;
 	font: 14px Lato;
 	font-style: italic;
@@ -68,14 +67,14 @@
 
 .row3 button{
 	width: 120px;
-	height: 40px;
-	border-radius:30px;
-	border: 0px;
-	font: 15px FjallaOne;
-	margin-left: 10px;
-	background: #202628;
-	color: white;
-	letter-spacing: 0.04em;
+    height: 41px;
+    border-radius: 20px;
+    border: 0px;
+    font: 15px FjallaOne;
+    margin-left: 9px;
+    background: #202628;
+    color: white;
+    letter-spacing: 0.03em;
 }
 
 .row3 button img

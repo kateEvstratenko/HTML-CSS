@@ -1,23 +1,7 @@
 .row2 .content
 {
     padding: 80px 0 80px 0;
-}
-
-.row2 .section{
-	width: 370px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 3px;
-	/*overflow:hidden;*/
-}
-
-.row2  .bigImage{
-	float:right;	
-	vertical-align: top;
-}
-
-.row2 .title{
-	margin-top: 24px;
+    overflow: hidden;
 }
 
 .row2 h2
@@ -28,11 +12,20 @@
 	font:21px FjallaOne;
 	color: #202628;
 	margin-left:2px;
-	margin-top: -3px;
-	letter-spacing: 0.034em;
+	letter-spacing: 0.0339em;
+	line-height: 23px;
 }
 
-.row2 h3
+
+.row2  .bigImage{
+	float:right;	
+}
+
+.row2 .title{
+	margin-top: 27px;
+}
+
+.row2 .title h3
 {
     margin:6px 0 9px 0;
 	font: 20px Lato;
@@ -41,12 +34,17 @@
 	letter-spacing: 0.006em;
 }
 
+.row2 .section{
+	width: 370px;
+	display: inline-block;
+}
+
 .row2 h4{
 	font: 16px Lato;
 	letter-spacing:-0.048em;
 	font-weight: bold;
 	color: #202628;
-	margin: 21px 0 0 0;
+	margin: 24px 0 0 0;
 }
 
 .row2 p{
@@ -57,7 +55,7 @@
     line-height:24px;
 }
 
-.row2 button{
+.row2 input[type="submit"]{
 	background: #e84c3d;
 	border: 0;
 	border-radius: 20px;
@@ -65,5 +63,5 @@
 	color: #fdf3f2;
 	width: 70px; 
 	height: 37px;
-	margin-top: 33px;
+	margin-top: 34px;
 }
