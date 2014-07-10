@@ -1,36 +1,36 @@
-.row1{
+.mostPopularContent{
   background: #e7e7e7;
 }
 
-.row1 .content
+.mostPopularContent .content
 {
     padding: 80px 0 82px 0;
 }
 
-.row1 ul
+.mostPopularContent ul
 {
     display: table;
     padding: 0;
 }
 
-.row1 li
+.mostPopularContent li
 {
     display: table-cell; 
     width: 400px;  
     overflow: hidden;
 }
 
-.row1 li:last-child
+.mostPopularContent li:last-child
 {
     width: 370px;
 }
 
-.row1 li img
+.mostPopularContent li img
 {
     float:left;
 }
 
-.row1 li .text{
+.mostPopularContent li .text{
 	width:270px;
 	float: right;
 	margin-left: 30px;
@@ -38,20 +38,21 @@
  }
  
  
- .row1 li:last-child .text
+ .mostPopularContent li:last-child .text
 {
     margin-right: 0;
 }
 
- .row1 .text h3
+ .mostPopularContent .text h3
 {
     font:21px FjallaOne;
     font-weight:normal;
     margin: -2px 0 0 0;
     letter-spacing: 0.035em;
+    text-transform: uppercase;
 }
  
-.row1 .text p{
+.mostPopularContent .text p{
 	font:14px Lato;
 	color: #767c7e;
 	-webkit-margin-after: 0;
@@ -61,7 +62,8 @@
     letter-spacing: -0.012em;
 }
  
- .row1 .text a{
+ .mostPopularContent .text a{
 	color:#e84c3d;
 	text-decoration: none;
+    margin-left: 5px;
  }

@@ -1,16 +1,14 @@
-/* Styles go here */
 @font-face {
-    font-family: FjallaOne; /* Имя шрифта */
-    src: url(../fonts/FjallaOne-Regular.ttf); /* Путь к файлу со шрифтом */
-    letter-spacing: 0.035em;
+    font-family: FjallaOne; 
+    src: url(../fonts/FjallaOne-Regular.ttf); 
 }
 @font-face {
-    font-family: Lato; /* Имя шрифта */
-    src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: Lato; 
+    src: url(../fonts/Lato-Regular.ttf); 
 }
 @font-face {
-    font-family: Oswald; /* Имя шрифта */
-    src: url(../fonts/Oswald-Regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: Oswald; 
+    src: url(../fonts/Oswald-Regular.ttf); 
 }
 
 body{
@@ -31,6 +29,7 @@ header .siteName
     font: 25px FjallaOne;
 	float: left;
     padding: 26px 0 0 0;
+    text-transform:uppercase;
 }
 
 header .rightBlock
@@ -39,7 +38,8 @@ header .rightBlock
 }
 
 header .menu{
-    display: table;
+    display: table;   
+    text-transform: uppercase;
 }
 
 header .menu li{
@@ -77,27 +77,6 @@ header a:hover
 	display:inline-block;
 }
  
-.circle{
-	padding:0; margin:0;
-	display:flex;
-	width: 70px;
-    height: 70px;
-    -moz-border-radius: 35px;
-    -webkit-border-radius: 35px;
-    border-radius: 35px;
-}
-
-.circle img{
-	margin: auto;
-}
-
-
-
-.divMargin{
-	margin-left:30px;
-	display: inline-block;
-}
-
 footer{
   height: 205px;
   background:#202628;
@@ -107,7 +86,9 @@ footer{
 footer .content{
 	font: 14px Lato;
 	color: #e7e7e7; 
-	/*vertical-align: top;*/
+	overflow: hidden;
+    padding-top: 77px;
+
 }
 
 footer .sectionLeft{
@@ -118,11 +99,10 @@ footer .sectionLeft{
 footer .sectionRight{
 	display: inline-block;
 	float: right;
-	margin: 79px 0 0 0;
+    margin-top:2px;
 }
 
 footer .footerText{
-	padding-top: 77px;
 	letter-spacing: 0.025em;
 }
 
@@ -142,10 +122,10 @@ footer .footerSeparatop
     color: #595f61; 
 }
 
-footer .greyText, footer pre{
-	color: #595f61; /*silver*/	
+footer .greyText{
+	color: #595f61; 
 }
 
 footer .orangeText{
-	color: #e84c3d;/*orange*/
+	color: #e84c3d;
 }

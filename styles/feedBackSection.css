@@ -1,30 +1,38 @@
-.row4 .content
+.feedBackSection .content
 {
     padding: 66px 0 61px 0;
 }
 
-.row4 .subsectionContent
+.feedBackSection .subsectionContent
 {
-    	padding-top: 30px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.row4 .section .subsection:before
+.feedBackSection .section .subsection:before
 {
-    content: url(../images/line370.png);
+    background: #e7e7e7;
+    width: 370px;
+    height: 1px;
+    content: ' ';
+    display: inline-block;
 }
 
-.row4 .section .subsection:last-child:after
+.feedBackSection .section .subsection:last-child:after
 {
-    content: url(../images/line370.png);
+    background: #e7e7e7;
+    width: 370px;
+    height: 1px;
+    content: ' ';
+    display: inline-block;
 }
 
-.row4 .subsectionContent {
+.feedBackSection .subsectionContent {
     padding-top: 30px;
     padding-bottom: 22px;
 }
 
-.row4 .sectionText{
+.feedBackSection .sectionText{
 	width: 270px;
 	font: 14px Lato;
 	letter-spacing: -0.01em;
@@ -33,22 +41,23 @@
 	padding: 5px 0 0 30px;
  } 
 
-.row4 .subsection .sectionText p
+.feedBackSection .subsection .sectionText p
 {
     margin: 0;
 }
 
-.row4 .subsection a
+.feedBackSection .subsection a
+{
+    text-decoration:none;
+    word-spacing: 0.4em;
+}
+
+.feedBackSection .subsection a:hover
 {
     text-decoration:none;
 }
 
-.row4 .subsection a:hover
-{
-    text-decoration:none;
-}
-
-.row4 .icon{
+.feedBackSection .icon{
 	margin: 0px;
 	margin-top: 30px;
 	vertical-align: top;
@@ -56,7 +65,7 @@
 	width: 27px;
 }
 
- .row4 .subsectionText
+ .feedBackSection .subsectionText
  {
 	width: 270px;
     font: 14px Lato;
@@ -66,23 +75,29 @@
     padding: 25px 0 25px 22px;
  }
  
- .row4 .sectionText a{
+ .feedBackSection .sectionText a{
 	color: #e84c3d;
  }
  
-.row4 .section{
+.feedBackSection .content .section{
 	width: 370px;
 	display: inline-block;
 	vertical-align: top;
+    margin-left: 30px;
 }
 
-.row4 .section h3{
+.feedBackSection .content .section:first-child {
+    margin-left: 0;
+}
+
+.feedBackSection .section h3{
 	font: 21px FjallaOne;
+    text-transform: uppercase;
 	letter-spacing: 0.033em;
 	margin: 0 0 25px 0;
 }
 
-.row4 .section h4{
+.feedBackSection .section h4{
 	font: 16px Lato;
 	margin: 0 0 3px 0;
 	font-weight: bold;
@@ -90,11 +105,11 @@
 	color: #e84c3d;
 }
 
-.row4 .subsectionRight .contacts{
+.feedBackSection .subsection .contacts{
 	margin: 0;
 }
 
-.row4 .section form{
+.feedBackSection .section form{
 	background: #e7e7e7;
 	padding: 30px;
 	font: 14px Lato;
@@ -102,13 +117,13 @@
 	border-radius: 3px;
 }
 
-.row4 .section form p{
+.feedBackSection .section form p{
 	line-height: 24px;
     margin: -5px 0 23px 0;
 	letter-spacing: -0.004em;
 }
 
-.row4 input[type="text"]{
+.feedBackSection input[type="text"]{
     border-width: 0;
     width: 295px;
     border-radius: 50px;
@@ -121,7 +136,7 @@
     padding-left: 15px;
 }
 
-.row4 textarea{
+.feedBackSection textarea{
     width: 296px;
     border-radius: 10px;
     border-width: 0;
@@ -135,18 +150,21 @@
     line-height: 20px;
 }
 
-.row4 button{
+.feedBackSection button{
+    background-color: #e84c3d;
+    background-image: url(../images/arrow.png);
+    background-repeat:no-repeat;
+    background-position: 65px center;
 	border-width: 0;	
 	width: 100px;
 	height: 40px;
 	border-radius:20px;
     margin-top: 17px;
 	border: 0;
-	background: #e84c3d;
 	color: white;
 	font: 15px  FjallaOne;
-}
-
-.row4 button img{
-	vertical-align: middle;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 0.02em;
 }
