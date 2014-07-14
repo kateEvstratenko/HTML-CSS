@@ -46,13 +46,24 @@
     margin: 0;
 }
 
-.feedBackSection .subsection a
+.feedBackSection .subsection .reference a
 {
     text-decoration:none;
     word-spacing: 0.4em;
 }
 
-.feedBackSection .subsection a:hover
+.feedBackSection .subsection .reference a:hover
+{
+    text-decoration:none;
+}
+
+.feedBackSection .subsection .contacts a
+{
+    color:black;
+    text-decoration:none;
+}
+
+.feedBackSection .subsection .contacts a:hover
 {
     text-decoration:none;
 }
