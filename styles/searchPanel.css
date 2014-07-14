@@ -74,19 +74,16 @@
 }
 
 .searchPanel button{
-    background-color: #202628;
+   background-color: #202628;
     background-image: url(../images/arrow.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: 85px center;
-	width: 120px;
-    height: 41px;
     border-radius: 20px;
     border: 0px;
     font: 15px FjallaOne;
     text-transform: uppercase;
-    margin-left: 9px;
+    margin-left: 10px;
     color: white;
     letter-spacing: 0.03em;
-    text-align: left;
-    padding-left: 22px;
+    padding: 10px 40px 10px 22px;
 }
