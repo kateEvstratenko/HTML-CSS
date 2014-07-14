@@ -14,7 +14,12 @@
 body{
 	margin: 0;
 }
-   
+
+header, .banner, .feedBackSection, .mainContent, .mostPopularContent, .searchPanel, footer
+{
+    min-width: 1170px;
+}
+
 header {
 	background: #202628;
 	color: white;	  
