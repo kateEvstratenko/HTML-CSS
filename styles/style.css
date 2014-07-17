@@ -21,8 +21,11 @@ body
     margin: 0;
 }
 
-header, .banner, .feedBackSection, .mainContent, .mostPopularContent, .searchPanel, footer
-{
+header, .banner, .feedBackSection, .mainContent, .mostPopularContent, .searchPanel, footer {
+    -moz-min-width: 1170px;
+    -ms-min-width: 1170px;
+    -o-min-width: 1170px;
+    -webkit-min-width: 1170px;
     min-width: 1170px;
 }
 
@@ -122,9 +125,10 @@ footer .sectionRight
     margin-top: 2px;
 }
 
-footer .footerText
+footer .footerText a
 {
-    letter-spacing: 0.025em;
+    color: #e7e7e7;
+    text-decoration: none;
 }
 
 .content .sectionRight img
