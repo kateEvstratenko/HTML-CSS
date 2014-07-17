@@ -1,52 +1,52 @@
 .mainContent .content
 {
-    padding: 80px 0 80px 0;
+    padding: 80px 0;
     overflow: hidden;
 }
 
 .mainContent h2
 {
-    margin:0;
+    width: 650px;
     display: inline-block;
-    width:650px;
-	font:21px FjallaOne;
-	color: #202628;
-	margin-left:2px;
-	letter-spacing: 0.035em;
-	line-height: 24px;
+    margin: 0 0 0 2px;
+    font: 21px FjallaOne;
+    color: #202628;
+    line-height: 24px;
+    letter-spacing: 0.035em;
     text-transform: uppercase;
 }
 
-
-.mainContent  .bigImage{
-	float:right;	
+.mainContent .bigImage
+{
+    float: right;
 }
 
-.mainContent .title{
-	margin-top: 26px;
+.mainContent .title
+{
+    margin-top: 26px;
 }
 
 .mainContent .title h3
 {
-    margin:6px 0 9px 0;
-	font: 20px Lato;
-	color: #e84c3d;
-	height: 24px;
-	letter-spacing: 0.006em;
+    margin: 6px 0 9px 0;
+    font: 20px Lato;
+    color: #e84c3d;
+    letter-spacing: 0.006em;
 }
 
-.mainContent .title:before, .mainContent .title:after 
+.mainContent .title:before, .mainContent .title:after
 {
-    background: #e7e7e7;
     width: 770px;
     height: 1px;
-    content: ' ';
     display: inline-block;
+    content: '';
+    background: #e7e7e7;
 }
 
-.mainContent .section{
-	width: 370px;
-	display: inline-block;
+.mainContent .section
+{
+    width: 370px;
+    display: inline-block;
 }
 
 .mainContent .content .section:last-child
@@ -54,36 +54,39 @@
     margin-left: 29px;
 }
 
-.mainContent h4{
-	font: 16px Lato;
-    letter-spacing: -0.04em;
-    font-weight: bold;
-    color: #202628;
+.mainContent h4
+{
     margin: 23px 0 0 0;
+    font: 16px Lato;
+    color: #202628;
+    font-weight: bold;
+    letter-spacing: -0.04em;
 }
 
-.mainContent p{
-	font: 14px Lato;
-	color: #bfc2c3;
-	margin: 6px 0 0 0;
+.mainContent p
+{
+    margin: 6px 0 0 0;
+    font: 14px Lato;
+    color: #bfc2c3;
+    line-height: 24px;
     letter-spacing: -0.008em;
-    line-height:24px;
 }
 
-.mainContent .section a{
-	background: #e84c3d;
-	border: 0;
-	border-radius: 20px;
-	font: 14px Oswald;
-	color: #fdf3f2;
-	display: inline-block;
-    margin: 35px 0 0 0;
-    padding: 7px 20px;
+.mainContent .section a
+{
+    margin: 33px 0 0 0;
+    padding: 8px 20px;
+    display: inline-block;
+    background: #e84c3d;
+    border: 0;
+    border-radius: 20px;
+    font: 14px Oswald;
+    color: #fdf3f2; 
     text-transform: uppercase;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .mainContent .section a:hover
 {
-    text-decoration:none;
+    text-decoration: none;
 }

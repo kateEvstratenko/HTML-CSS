@@ -1,5 +1,6 @@
-.mostPopularContent{
-  background: #e7e7e7;
+.mostPopularContent
+{
+    background: #e7e7e7;
 }
 
 .mostPopularContent .content
@@ -9,14 +10,14 @@
 
 .mostPopularContent ul
 {
-    display: table;
     padding: 0;
+    display: table;
 }
 
 .mostPopularContent li
 {
-    display: table-cell; 
-    width: 400px;  
+    width: 400px;
+    display: table-cell;
     overflow: hidden;
 }
 
@@ -27,43 +28,46 @@
 
 .mostPopularContent li img
 {
-    float:left;
+    float: left;
 }
 
-.mostPopularContent li .text{
-	width:270px;
-	float: right;
-	margin-left: 30px;
-	margin-right: 30px;
- }
- 
- 
- .mostPopularContent li:last-child .text
+.mostPopularContent li .text
+{
+    width: 270px;
+    float: right;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.mostPopularContent li:last-child .text
 {
     margin-right: 0;
 }
 
- .mostPopularContent .text h3
+.mostPopularContent .text h3
 {
-    font:21px FjallaOne;
-    font-weight:normal;
     margin: -2px 0 0 0;
+    font: 21px FjallaOne;
+    font-weight: normal;
     letter-spacing: 0.035em;
     text-transform: uppercase;
 }
- 
-.mostPopularContent .text p{
-	font:14px Lato;
-	color: #767c7e;
-	-webkit-margin-after: 0;
-	-webkit-margin-before: 14px;
-	line-height: 25px;
-	margin: 15px 0 0 0;
+
+.mostPopularContent .text p
+{
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 14px;
+    margin: 15px 0 0 0;
+    font: 14px Lato;
+    color: #767c7e;
+    line-height: 25px;
     letter-spacing: -0.012em;
 }
- 
- .mostPopularContent .text a{
-	color:#e84c3d;
-	text-decoration: none;
+
+.mostPopularContent .text a
+{
     margin-left: 5px;
- }
+    color: #e84c3d;
+    text-decoration: none;
+}

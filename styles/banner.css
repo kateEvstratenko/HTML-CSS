@@ -1,20 +1,22 @@
 .banner
 {
-	 background-image: url(../images/banner.jpg);
-	 background-position:center center;
-     background-repeat:no-repeat;
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.banner .opacity
-{
-	background: rgba(102,97,85,0.4);
+.banner .opacity {
+    background: #666155;
+    background: rgba(102,97,85,0.4);
 }
 
 .banner .content
 {
-   box-sizing:border-box;
-   height: 560px;
-   padding:290px 0 0 0;
+    height: 560px;
+    padding-top: 290px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .banner a
@@ -23,34 +25,36 @@
     margin-right: 1px;
 }
 
-.banner section{
-	padding-top:21px;
+.banner section
+{
+    padding-top: 21px;
 }
 
-.banner h2{
-	font: 29px FjallaOne;
-	letter-spacing: 0.1135em;
-	color: #e7e7e7;
+.banner h2
+{
     margin: 0;
-    line-height: 47px; 
+    font: 29px FjallaOne;
+    color: #e7e7e7;
+    line-height: 47px;
+    letter-spacing: 0.1135em;
     text-transform: uppercase;
 }
 
 .banner h2:first-child:after
 {
-    background: #e7e7e7;
     width: 252px;
     height: 2px;
-    content: ' ';
-    margin-left: 15px;
-    margin-top: 20px;
     display: inline-block;
     vertical-align: top;
+    margin: 20px 0 0 15px;
+    content: '';
+    background: #e7e7e7;
 }
 
-.banner h4{
-	font: 15px FjallaOne;
-	letter-spacing: 0.075em;
-	color: #e84c3d;
+.banner h4
+{
     margin: 6px 0 0 0;
+    font: 15px FjallaOne;
+    color: #e84c3d;
+    letter-spacing: 0.075em;
 }

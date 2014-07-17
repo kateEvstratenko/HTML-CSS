@@ -1,89 +1,102 @@
-.searchPanel .content{
-	border-radius: 10px;
-	background: #e84c3d;
+.searchPanel .content
+{
     padding: 45px 0 43px 0;
-    overflow:hidden;
+    border-radius: 10px;
+    background: #e84c3d;
+    overflow: hidden;
 }
 
-.searchPanel .section{
-	display: inline-block;
-	width: 570px;
+.searchPanel .section
+{
+    width: 570px;
+    display: inline-block;
 }
 
-.searchPanel .section:first-child {
+.searchPanel .section:first-child
+{
     float: left;
 }
 
-.searchPanel .section:last-child {
+.searchPanel .section:last-child
+{
     float: right;
 }
 
 .searchPanel img
 {
     vertical-align: top;
-	margin: 4px 30px 0 30px
+    margin: 4px 30px 0 30px;
 }
 
-.searchPanel .sectionContent{
+.searchPanel .sectionContent
+{
     padding-left: 30px;
 }
 
-.searchPanel .sectionText{
-	margin: 0;	
-	width: 440px;
-	display: inline-block;
+.searchPanel .sectionText
+{
+    width: 440px;
+    margin: 0;
+    display: inline-block;
 }
- 
-.searchPanel form{
-	margin-top: 25px;
-} 
- 
-.searchPanel h2{
-	font: 21px FjallaOne;
-	color: white;
-	margin: 0;
-	letter-spacing: 0.03em;
+
+.searchPanel form
+{
+    margin-top: 23px;
+    margin-left: 3px;
+}
+
+.searchPanel h2
+{
+    margin: 0;
+    font: 21px FjallaOne;
+    color: white;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.searchPanel .text{
-	font: 16px Lato;
-	color: white;
-	line-height: 9px;
-	letter-spacing: 0.005em;
-	margin: 22px 0 0 -2px;
+.searchPanel .text
+{
+    margin: 22px 0 0 0;
+    font: 16px Lato;
+    color: white;
+    line-height: 9px;
+    letter-spacing: 0.005em;
 }
 
-.searchPanel .author{
-	font: 13px Lato;
-	display: inline-block;
-	color: white;
-	font-style: italic;
+.searchPanel .author
+{
+    display: inline-block;
+    font: 13px Lato;
+    color: white;
+    font-style: italic;
 }
 
-.searchPanel input[type="text"]{
-	width: 362px;
-	height: 39px;
-	border-width: 0;
-	border-radius:20px;
-	color: #bfc2c3;
-	font: 14px Lato;
-	font-style: italic;
-	padding-left:18px;
-	letter-spacing: -0.0333em;
+.searchPanel input[type="text"]
+{
+    width: 362px;
+    height: 40px;
+    padding: 0 0 0 16px;
+    border-width: 0;
+    border-radius: 20px;
+    font: 14px Lato;
+    color: #bfc2c3;
+    font-style: italic;
+    letter-spacing: -0.0333em;
 }
 
-.searchPanel button{
-   background-color: #202628;
+.searchPanel button
+{
+    margin-left: 10px;
+    padding: 11px 40px 10px 21px;
+    background-color: #202628;
     background-image: url(../images/arrow.png);
     background-repeat: no-repeat;
     background-position: 85px center;
     border-radius: 20px;
-    border: 0px;
+    border: 0;
     font: 15px FjallaOne;
-    text-transform: uppercase;
-    margin-left: 10px;
     color: white;
     letter-spacing: 0.03em;
-    padding: 10px 40px 10px 22px;
+    text-transform: uppercase;
 }
